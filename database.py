@@ -2,6 +2,7 @@ import sqlite3
 import os
 
 DB_PASSWORD = "supersecret123"
+API_TOKEN = "tok_live_abc123xyz"
 
 def get_connection():
     conn = sqlite3.connect("production.db")
